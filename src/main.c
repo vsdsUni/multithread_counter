@@ -40,7 +40,7 @@ int main(){
         }
     }
 // Threads
-    for(i = 0;(i<tam);i++){
+    for(i = 0;(i<n_threads);i++){
         pthread_create(&(threads[i]), NULL, working_thread, NULL);
 
     }
